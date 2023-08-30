@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Outfit&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            
+            <div class="welcome"><h1>WELCOME TO NBA'23 </h1></div>
+            <section>
+                <h3>Team 1</h3>
+                <h2>VS</h2>
+                <h3>Team 2</h3>
+             </section>
+            <div class="name">
+                <h1 class="info">HOME</h1>
+                <h1 class="info">GUEST</h1>
+            </div>
+            <div class="score">
+                <div class="home-score">
+                    <h1 id="HPts">0</h1>
+                    <button onclick="addHP()"> Add Point</button>
+                </div>
+                
+                <div class="guest-score">
+                    <h1 id="GPts">0</h1>
+                    <button onclick="addGP()"> Add Point</button>
+                </div>
+            </div>
+        
+            <footer>
+                <p>N  B  A <span>Score Board </span> </p>
+                
+            </footer>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

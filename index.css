@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(197, 248, 248);
+    width: 100%;
+}
+
+.container{
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(basketball.webp);
+    background-size: cover;
+    color: white;
+
+}
+
+.welcome h1{
+    padding: 20px 0px;
+    color: #16049c;
+    background-color: azure;
+    font-size: xx-large;
+    width: 100%;
+}
+
+section{
+    display: flex ;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0%;
+    margin: 0;
+}
+
+section > h3{
+    color: red;
+    font-size: 30px;
+    font-weight: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+section h2{
+    font-size: 4em;
+    margin: 0;
+    color: #16049c;
+    background-color: rgb(177, 249, 249);
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 100%;
+}
+
+
+footer{
+    background-color: red;    
+}
+
+footer p {
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+#HPts, #GPts{
+    font-size: 8rem;
+    margin: 0% ;
+    font-family: 'Orbitron', sans-serif;
+    width: 90%;
+    padding: 10px;
+    
+}
+#HPts{
+    padding-left: 20px;
+}
+#GPts{
+    padding-right: 20px;
+}
+
+.info{
+    border: #fff solid 2px;
+    background: #16049c;
+    padding: 10px 10px;
+    font-size: 25px;
+    
+}
+
+
+button{
+    background-color: #fff;
+    border: #16049c solid 2px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    color: white;
+    background: red;
+    border: 0;
+}
+
+.home-score, .guest-score{
+    width: 100%;
+}
+
+@media (min-width:450px) and (max-width: 767px) {
+    .container{
+        width: 90%;
+    }
+}
